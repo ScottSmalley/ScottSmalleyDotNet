@@ -1,0 +1,40 @@
+/*  Scott Smalley
+    UVU B.S. Software Engineering Fall 2020
+    801-651-9808
+    scottsmalley90@gmail.com  
+
+    This file contains some slight overwrites to Bootstrap's CSS.
+*/
+*{
+    font-family: Helvetica;   
+}
+body{
+    color: #f7f9fb;
+    background-color: #31708e;
+}
+.text-light{
+    color: #f7f9fb;
+}
+.bg-light{
+    background-color: #f7f9fb;
+}
+.nav-tabs > li > a{
+    color: #f7f9fb;
+    background-color: #31708e;
+}
+.jumbotron{
+    color: #f7f9fb;
+    background-color: #31708e;
+}
+.card-header{
+    color: #f7f9fb;
+    background-color: #5085a5;
+}
+.card-footer{
+    background-color: #8fc1e3
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #f7f9fb;
+    border-color: #f7f9fb #f7f9fb #f7f9fb;
+}
