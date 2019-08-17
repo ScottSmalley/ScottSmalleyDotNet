@@ -10,16 +10,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="media/favicon.png">
     <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="media/favicon.png">
     <title>Scott Smalley</title>
 </head>
 <!-- CONTENT  -->
 <body class="d-flex flex-column" style="min-height: 100vh">
     <div class="container-fluid">
-<!-- HEADER -->
+    <!-- HEADER -->
         <div class="row align-items-center">
             <div class="jumbotron text-left display-3 col-xl-10 col-lg-10 col-md-12 col-sm-12 col-12">
                 Scott Smalley
@@ -35,9 +35,9 @@
             </ul>
         </div>
     </div>
-<!-- BODY CONTENT -->
+    <!-- BODY CONTENT -->
     <div class="container">
-<!-- NAVIGATION TABS -->
+        <!-- NAVIGATION TABS -->
         <div class="row">
             <ul class="nav nav-tabs col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <li class="nav-item">
@@ -55,11 +55,11 @@
             </ul>
         </div>
         <div class="row tab-content bg-light text-dark p-3">
-<!-- ABOUT ME CONTENT -->
+        <!-- ABOUT ME CONTENT -->
             <div class="tab-pane container active" id="about">
                 <div class="card mt-5 mb-5">
-                    <div class="card-header">
-                    </div>
+                    <!-- BLANK HEADER -->
+                    <div class="card-header"></div>
                     <div class="card-body">
                         <p> Hello! I’m a Software Engineering Senior at Utah Valley University. 
                             During my studies, I worked in retail focusing primarily on critical thinking, business logic, and teamwork. 
@@ -75,7 +75,7 @@
                     </div>
                 </div>
             </div>
-<!-- RESUME CONTENT -->            
+        <!-- RESUME CONTENT -->            
             <div class="tab-pane container fade" id="resume">
                 <div class="embed-responsive embed-responsive-item embed-responsive-1by1">
                     <embed src="media/Scott Smalley Resume.pdf"></embed>
@@ -84,7 +84,7 @@
                     Click to <a href="media/Scott Smalley Resume.pdf" download="Scott Smalley Resume">download.</a>
                 </div>
             </div>
-<!-- PROJECTS CONTENT -->
+        <!-- PROJECTS CONTENT -->
             <div class="tab-pane container fade h3" id="projects">
                 <div class="card mt-3">
                     <div class="card-header text-center"> 
@@ -122,14 +122,14 @@
                         <h5>Language: Java</h5>
                         <h6>Goal: Create a patient management tool concept with a dynamic menu system that uses Alt to trigger a menu that appears under the mouse for fast selections (akin to video games such as Counter Strike). Built the GUI from Java Swing/AWT.</h6>
                     </div>
-                        <div class="card-footer">
-                            <a href="https://github.com/ScottSmalley/SmalleySoftware" target="_blank">
-                                <img src="media/GitHubLogo.png" class="img-fluid githubimg" alt="GitHub Project Link">
-                            </a>
-                        </div>
+                    <div class="card-footer">
+                        <a href="https://github.com/ScottSmalley/SmalleySoftware" target="_blank">
+                            <img src="media/GitHubLogo.png" class="img-fluid githubimg" alt="GitHub Project Link">
+                        </a>
+                    </div>
                 </div>
             </div>
-<!-- WEBSITE GAME CONTENT -->            
+        <!-- WEBSITE GAME CONTENT -->            
             <div class="tab-pane container fade" id="game">
                 <div class="card mt-3">
                     <div class="card-header text-center h3"> 
@@ -144,12 +144,12 @@
                         <div id="gamePlay" class="collapse mt-3 border">
                             <div class="card">
                                 <div class="card-body text-left">
+                                    <!-- PLACEHOLDER TO INSERT SCRAMBLED TEXT GAME -->
                                     <div id="scrambledText">                            
                                     </div>
                                 </div>
                             </div>
                         </div>    
-                        </h6>
                     </div>
                     <div class="card-footer">
                         <div class="btn-group">
@@ -161,18 +161,14 @@
             </div>
         </div>
     </div>
-<!-- FOOTER -->
+    <!-- FOOTER -->
     <div class="container-fluid mt-5 mb-1">
         <footer class="small text-center">
             <p>LinkedIn logos are copywritten by LinkedIn Corporation with authorization to promote LinkedIn profiles. More information is available <a href="https://brand.linkedin.com/policies" class="text-light">here</a>.<br>
             GitHub logos are copywritten by GitHub for use to promote GitHub Projects. More information is available <a href="https://github.com/logos" class="text-light">here</a>.</p>
         </footer>
     </div>
-<!-- JAVASCRIPT -->
-<script
-src="https://code.jquery.com/jquery-3.4.1.js"
-integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>    
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="logic.js"></script>
