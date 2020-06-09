@@ -1,7 +1,6 @@
 /*  
 Scott Smalley
 UVU B.S. Software Engineering Fall 2020
-801-651-9808
 scottsmalley90@gmail.com  
 
 This file contains some slight overwrites to Bootstrap's CSS.
@@ -22,7 +21,7 @@ body{
     background-color: #5085a5;
 }
 .card-footer{
-    background-color: #8fc1e3
+    background-color: #8fc1e3;
 }
 .nav-tabs > li > a{
     color: #f8f9fa;
@@ -38,4 +37,22 @@ body{
 }
 .nav-item{
     border-bottom: #f8f9fa;
+}
+
+thead{
+    color: #f8f9fa;
+    background-color: #31708e;
+}
+
+.taskItLoginBtn, .createTaskBtn, .createUserBtn{
+    background-color: #8fc1e3;
+}
+
+#submitLoginBtn, #submitCreateUserBtn, #submitCreateTaskBtn, #submitEditTaskBtn, #submitDeleteBtn{
+    background-color: #8fc1e3;
+}
+
+#cancelLoginBtn, #cancelCreateUserBtn, #cancelCreateTaskBtn, #cancelEditTaskBtn, #cancelDeleteBtn{
+    color: #31708e;
+    background-color: #f8f9fa;
 }

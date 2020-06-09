@@ -1,7 +1,6 @@
 <!-- 
     Scott Smalley
     UVU B.S. Software Engineering Fall 2020
-    801-651-9808
     scottsmalley90@gmail.com 
  -->
 <!DOCTYPE html>
@@ -14,7 +13,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/png" href="media/favicon.png">
-    <title>Scott Smalley</title>
+    <title>Scott Smalley - Portfolio</title>
 </head>
 <!-- CONTENT  -->
 <body class="d-flex flex-column" style="min-height: 100vh">
@@ -41,16 +40,19 @@
         <div class="row">
             <ul class="nav nav-tabs col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
                 <li class="nav-item">
-                    <a class="nav-link active" data-toggle="tab" href="#about"> About Me </a>
+                    <a class="nav-link active" data-toggle="tab" href="#about">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#resume"> Resume </a>
+                    <a class="nav-link" data-toggle="tab" href="#resume">Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#projects"> Projects </a>
+                    <a class="nav-link" data-toggle="tab" href="#projects">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="tab" href="#game"> Website Game </a>
+                    <a class="nav-link" data-toggle="tab" href="#game">Scramble Game</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#taskIt">TaskIt</a>
                 </li>
             </ul>
         </div>
@@ -58,20 +60,31 @@
         <!-- ABOUT ME CONTENT -->
             <div class="tab-pane container active" id="about">
                 <div class="card mt-5 mb-5">
-                    <!-- BLANK HEADER -->
                     <div class="card-header"></div>
                     <div class="card-body">
-                        <p> Hello! I’m a Software Engineering Senior at Utah Valley University. 
-                            During my studies, I worked in retail focusing primarily on critical thinking, business logic, and teamwork. 
-                            For example, I saved a $40,000 customer order from being canceled through conflict resolution and outside-the-box problem solving. 
-                            This experience gives a unique perspective when building software. 
-                            After more than six years of fixing problems on a team, you begin to see how the business functions from numerous perspectives. 
-                            What I found the most interesting was when the problem wasn’t business related, but technology related. </p>
+                        <p> Hello! I’m a Software Engineering Senior with one class left at Utah Valley 
+                            University. During my studies, I worked in retail using problem solving, 
+                            critical thinking, business logic, and teamwork skills. For example, I saved 
+                            a $40,000 customer order from being canceled through conflict resolution and 
+                            quick problem solving. This experience gives me a unique perspective when 
+                            building software. You get the full-circle view on how the business functions 
+                            from numerous perspectives when working with a team resolving customer-facing, 
+                            employee-facing, and corporate-facing challenges after six years. It's much 
+                            easier to put yourself in the end-user’s shoes.
+                        </p>
 
-                        <p> Software Engineering pairs my passion for solving problems with an industry consisting of dynamic challenges to overcome. 
-                            What I’m looking for in a career is to create, improve, or replace software solutions to better the lives of internal or external customers. 
-                            As part of my academic career, I’ve had exposure to Java, Python, C#, SQL, HTML, CSS, and JavaScript. 
-                            The “Projects” tab above details projects that I’ve built in my spare time. </p>
+                        <p> Every problem is a puzzle. Software Engineering pairs my passion for solving 
+                            puzzles with an industry consisting of dynamic challenges to manage. What I’m 
+                            looking for in a position is to help create, improve, or replace software 
+                            solutions to better the lives of internal and external users. As part of my 
+                            academic career I’ve had exposure to Java, C#, Python, SQL, HTML, CSS, 
+                            JavaScript, MATLAB, R, D, SML/NJ, GitHub, and AWS services such as Lambda, 
+                            API Gateway, CloudWatch, and RDS. I’ve created a handful of projects during my 
+                            semester breaks using some of these technologies. Most recently I learned NodeJS, 
+                            ExpressJS, MongoDB, and Heroku to build the backend of the application shown in 
+                            the “TaskIt” tab.  More information on the projects I’ve built is listed in the 
+                            “Projects” tab. Thank you.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -86,13 +99,33 @@
             </div>
         <!-- PROJECTS CONTENT -->
             <div class="tab-pane container fade h3" id="projects">
-                <!-- API BACKEND -->
-                <div class="card mt-3 mb-3">
+                <!-- PORTFOLIO WEBSITE -->
+                <div class="card mt-3">
                     <div class="card-header text-center"> 
-                        <h2>Senior Capstone Group Project (Fall 2019 through Spring 2020)</h2>
+                        <h2>Portfolio Website Project v2</h2>
                     </div>
                     <div class="card-body">
-                        <h5>Languages: C# with .NET Core 2.1, AWS Lambda, AWS ScheduledEvents, AWS RDS, and MySQL 8.0</h5>
+                        <h5>Technologies: HTML, CSS, Bootstrap, JavaScript, jQuery, NodeJS, ExpressJS, MongoDB, JWT, and Heroku using Test Driven Development (TDD) during backend development.</h5>
+                        <h6>My goal with this website update was to have one place for my links, resume, and projects. As part of the update, this website now contains a word-scramble game, and my "TaskIt" web app prototype. The scramble game is built using jQuery, and the TaskIt web app uses a RESTful API using NodeJS, Heroku, and MongoDB.</h6>
+                    </div>
+                    <div class="card-footer">
+                        Front End
+                        <a href="https://github.com/ScottSmalley/ScottSmalleyDotNet" target="_blank"> 
+                            <img src="media/GitHubLogo.png" class="img-fluid githubimg" alt="GitHub Project Link">
+                        </a>
+                         | Back End
+                        <a href="https://github.com/ScottSmalley/TaskItAPI" target="_blank"> 
+                            <img src="media/GitHubLogo.png" class="img-fluid githubimg" alt="GitHub Project Link">
+                        </a>
+                    </div>
+                </div>
+                <!-- API BACKEND CONTENT -->
+                <div class="card mt-3 mb-3">
+                    <div class="card-header text-center"> 
+                        <h2>Senior Capstone Group Project</h2>
+                    </div>
+                    <div class="card-body">
+                        <h5>Technologies: C#, .NET Core 2.1, AWS Lambda, AWS ScheduledEvents, AWS RDS, and MySQL 8.0</h5>
                         <h6>The goal of the project was to find a real company who needs a software solution that could use our FREE services. In a team of three to five Software Engineering Seniors, find a prospective project and determine whether we can be of assistance. My team found a local company who could use a “labor pool” management solution. They wanted it to be available on mobile. No NDA’s or exclusivity clauses were necessary. My team broke down our project into front-end and back-end. I volunteered to be the back-end position, meaning the entire backend included in the GitHub link is my code. I used a Command design pattern in a RESTful solution to perform CRUD tasks. We developed a minimal viable product, but our project was shelved by the company due to COVID-19.</h6>
                     </div>
                     <div class="card-footer">
@@ -104,29 +137,14 @@
                 <!-- PUNNETT ME V2 -->
                 <div class="card mt-3">
                     <div class="card-header text-center"> 
-                        <h2>PunnettMe v2 Project (2019)</h2>
+                        <h2>PunnettMe v2 Project</h2>
                     </div>
                     <div class="card-body">
-                        <h5>Language: Java 10, JavaFX</h5>
+                        <h5>Technologies: Java 10, JavaFX</h5>
                         <h6>My goal with PunnettMe v2.0 was to upgrade my previous PunnettMe iteration. The concept of the project is to make an application that can generate Punnett Squares for comparing two reproductive partners and the statistical chance of each combination of genetic outcomes. This upgrade allows for up to 10 traits to be compared at once. This way a couple who may have some genetic issues can see the chance that their child may have the trait. We used a Decorator Pattern to build the genetic traits. We rebuilt the front-end using JavaFX to replace the AWT/Swing libraries used before. This project is available for anyone to check out. There’s an executable JAR file in the GitHub repository. </h6>
                     </div>
                     <div class="card-footer">
                         <a href="https://github.com/ScottSmalley/PunnettMev2" target="_blank">
-                            <img src="media/GitHubLogo.png" class="img-fluid githubimg" alt="GitHub Project Link">
-                        </a>
-                    </div>
-                </div>
-                <!-- PORTFOLIO WEBSITE -->
-                <div class="card mt-3">
-                    <div class="card-header text-center"> 
-                        <h2>Portfolio Website Project (2019)</h2>
-                    </div>
-                    <div class="card-body">
-                        <h5>Language: HTML, CSS, JavaScript, jQuery, Bootstrap</h5>
-                        <h6>My goal with this website was to have one place for my links, resume, projects, and a little game to show JavaScript work. I built it using CDNs for Bootstrap, FontAwesome, and jQuery. The game uses local memory to store the score for the game.</h6>
-                    </div>
-                    <div class="card-footer">
-                        <a href="https://github.com/ScottSmalley/ScottSmalleyDotNet" target="_blank">
                             <img src="media/GitHubLogo.png" class="img-fluid githubimg" alt="GitHub Project Link">
                         </a>
                     </div>
@@ -163,8 +181,217 @@
                     </div>
                 </div>
             </div>
+        <!-- TASKIT -->            
+            <div class="tab-pane container fade" id="taskIt">
+                <div class="card mt-3">
+                    <div class="card-header text-center h3"> 
+                        <h2>TaskIt</h2>
+                    </div>
+                    <div class="card-body text-left">
+                        <h5>TaskIt is a prototype task manager. The use-case is for a 
+                            family or workplace to have a centralized area where they 
+                            can post tasks for their household/employees that all 
+                            members can see. 
+                            <br><br>
+                            NOTE: I'm exposing certain security 
+                            measures to show that they work. If this project was in 
+                            production, you couldn't make yourself an admin user. 
+                            <br><br>
+                            How it works:
+                            <ul>
+                                <li>Anyone can create and view tasks.</li>    
+                                <li>You must log in to edit tasks.</li>    
+                                <li>You must log in and be an admin to delete tasks.</li> 
+                                <li>For demonstration purposes, when you create a user, 
+                                    you can set whether it's an admin or not.</li>
+                                <li>For now, you can't delete the users. Fighting off user-story creep.</li>   
+                                <li>Logins do not persist through sessions, so if you 
+                                    refresh, you’ll have to log back in.</li>    
+                            </ul>
+                            <br>
+                            Below I’ve listed two logins for users to play with. Notice if you don’t log in at all—you can’t modify anything? Try logging in each account and see what you can and can’t do. More information on how it works is listed in the Projects tab. 
+                        <br><br>
+                            <b>Regular Login: </b>
+                        <br>
+                            Email: jdoe@gmail.com
+                        <br>
+                            Password: 12345
+                        <br><br>
+                           <b>Admin Login: </b> 
+                        <br>
+                            Email: admin@admin.com
+                        <br>
+                            Password: 12345
+                        <div class="row loginMessageDiv">
+                            <!-- PLACEHOLDER AREA -->
+                        </div>
+                        </h5>   
+                    </div>
+                    <div class="container">
+                        <!-- TASKIT TABLE -->
+                        <div id="taskItTable" class="row mt-3 mb-0 border d-flex justify-content-center">
+                            <div class="col col-lg-12 text-left ml-0 mr-0 pl-0 pr-0 taskContent">
+                                <table class="table table-striped table-hover border mb-0">
+                                    <thead class="taskTableHead">
+                                        <tr>
+                                            <th hidden> Task Id</th>
+                                            <th>Description</th>
+                                            <th>Assigned To</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class = "taskTableBody">
+                                        <tr class="taskRow">
+                                            <td colspan="6">
+                                                <div class="spinner-border text-primary"></div>
+                                                Retrieving tasks...
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <!-- TASKIT BUTTON GROUP -->
+                        <div class="row d-flex justify-content-center">
+                            <div class="btn-group btn-group-lg loginBtnRow" role="group">
+                                <button type="button" class="btn btn-lg m-0 taskItLoginBtn" >Login</button>
+                                <button type="button" class="btn btn-lg m-0 createTaskBtn">Create Task</button>
+                                <button type="button" class="btn btn-lg m-0 createUserBtn">Create User</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- MODALS -->
+                        <!-- TASKIT LOGIN MODAL -->
+                        <div class="modal fade" id="loginModal">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <!--MODAL HEAD -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">TaskIt Login</h4>
+                                        <button type="button" class="close loginClose" id="close" data-dismiss="modal">&times</button>
+                                    </div>
+                                    <!--MODAL BODY -->
+                                    <div class="modal-body loginModalBody">
+                                        <input type="text" class="form-control-plaintext border mb-3" placeholder="Email" id="loginEmailInput" maxlength="255" minlength="5">
+                                        <input type="password" class="form-control-plaintext border mb-3" placeholder="Password" id="loginPasswordInput" maxlength="50" minlength="5">
+                                    </div>
+                                    <!--MODAL FOOT -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn" data-dismiss="modal" id="cancelLoginBtn">Cancel</button>
+                                        <button type="button" class="btn" id="submitLoginBtn">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TASKIT CREATE USER MODAL -->
+                        <div class="modal fade" id="createUserModal">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <!--MODAL HEAD -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Create User</h4>
+                                        <button type="button" class="close" id="close" data-dismiss="modal">&times</button>
+                                    </div>
+                                    <!--MODAL BODY -->
+                                    <div class="modal-body createUserModalBody">
+                                        <label>Name: <input type="text" class="form-control-plaintext border mb-3" placeholder="Name" id="userNameInput" maxlength="50" minlength="5"></label>
+                                        <label>Email: <input type="text" class="form-control-plaintext border mb-3" placeholder="user@example.com)" id="userEmailInput" maxlength="255" minlength="5"></label>
+                                        <label>Password: <input type="password" class="form-control-plaintext border mb-3" placeholder="Password" id="userPasswordInput" maxlength="255" minlength="5"></label>
+                                        <div class="input-group">
+                                            <div class="input-group-text">
+                                                <label>Are you an admin?
+                                                    <input type="checkbox" class="form-control" aria-label="Checkbox for admin status" id="userAdminInput">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--MODAL FOOT -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn" data-dismiss="modal" id="cancelCreateUserBtn">Cancel</button>
+                                        <button type="button" class="btn" id="submitCreateUserBtn">Create</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TASKIT CREATE TASK MODAL -->
+                        <div class="modal fade" id="createTaskModal">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <!--MODAL HEAD -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Create Task</h4>
+                                        <button type="button" class="close" id="close" data-dismiss="modal">&times</button>
+                                    </div>
+                                    <!--MODAL BODY -->
+                                    <div class="modal-body createTaskModalBody">
+                                        <input type="text" class="form-control-plaintext border mb-3" placeholder="Description" id="taskDescInput" minlength="5" maxlength="50">
+                                        <div class="form-group">
+                                            <label for="selectListCreateTask">Assigned To:</label>
+                                            <select class="form-control" id="selectListCreateTask">
+                                                <option>No users available at this time.</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!--MODAL FOOT -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn" data-dismiss="modal" id="cancelCreateTaskBtn">Cancel</button>
+                                        <button type="button" class="btn" id="submitCreateTaskBtn">Create</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TASKIT EDIT TASK MODAL -->
+                        <div class="modal fade" id="editTaskModal">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <!--MODAL HEAD -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Edit Task</h4>
+                                        <button type="button" class="close" id="close" data-dismiss="modal">&times</button>
+                                    </div>
+                                    <!--MODAL BODY -->
+                                    <div class="modal-body editTaskModalBody">
+                                        <input type="text" class="form-control-plaintext border mb-3" placeholder="Description" id="editTaskDescInput" minlength="5" maxlength="50">
+                                        <div class="form-group">
+                                            <label for="selectListEditTask">Assigned To:</label>
+                                            <select class="form-control" id="selectListEditTask">
+                                                <option>No users available at this time.</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <!--MODAL FOOT -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn" data-dismiss="modal" id="cancelEditTaskBtn">Cancel</button>
+                                        <button type="button" class="btn" id="submitEditTaskBtn">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- TASKIT DELETE TASK MODAL -->
+                        <div class="modal fade" id="deleteModal">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <!--MODAL HEAD -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Delete Warning</h4>
+                                        <button type="button" class="close" id="close" data-dismiss="modal">&times</button>
+                                    </div>
+                                    <!--MODAL BODY -->
+                                    <div class="modal-body deleteModalBody">
+                                        <p>Are you sure you want to delete this Task?</p>
+                                    </div>
+                                    <!--MODAL FOOT -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn" data-dismiss="modal" id="cancelDeleteBtn">Cancel</button>
+                                        <button type="button" class="btn" id="submitDeleteBtn">Delete</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
     <!-- FOOTER -->
     <div class="container-fluid mt-5 mb-1">
         <footer class="small text-center">
